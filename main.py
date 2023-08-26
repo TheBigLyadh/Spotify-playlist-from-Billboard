@@ -40,8 +40,3 @@ playlist = sp.user_playlist_create(user=user_id, name=f"{date} Billboard 100", p
 
 sp.playlist_add_items(playlist_id=playlist["id"], items=song_uris)
 
-# sorted_list = sorted(movies_list, key=custom_sort)
-
-# with open("movies.txt", 'w') as file:
-#         for item in sorted_list:
-#             file.write("%s\n" % item)
